@@ -3,6 +3,10 @@
   background-color: #d5d7d8;
 }
 
+.jumbotron .container {
+  min-height: 350px;
+}
+
 #projects,
 #contact {
   background-color: #d5d7d8;
@@ -10,4 +14,8 @@
 
 section {
   padding-top: 5rem;
+}
+
+#about .container {
+  min-height: 400px;
 }

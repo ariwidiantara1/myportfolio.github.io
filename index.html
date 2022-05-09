@@ -11,6 +11,9 @@
     <!-- Icons Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -51,8 +54,8 @@
     <div class="jumbotron jumbotron-fluid text-center">
       <div class="container">
         <img src="img/profile.jpeg" alt="Fto Pofile" width="200px" class="rounded-circle img-thumbnail" />
-        <h1 class="display-4">I Made Ari Widiantara</h1>
-        <p class="lead">Student | Programmer | Athlet</p>
+        <h1 class="display-4" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000">I Made Ari Widiantara</h1>
+        <p class="lead"></p>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L288,192L576,64L864,288L1152,160L1440,224L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
     </div>
@@ -67,10 +70,10 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-5">
+          <div class="col-md-5 fs-5 text-center" data-aos="fade-right" data-aos-duration="500">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum nisi, magni mollitia quia nesciunt molestiae accusamus culpa nulla sequi natus impedit cum et tempore sapiente hic.</p>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5 fs-5 text-center" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aperiam minus labore alias molestias vero expedita omnis ullam esse, sapiente non voluptatibus quidem? Maiores vero veniam veritatis. Dicta unde beatae
               ratione vitae nihil eaque?
@@ -93,7 +96,7 @@
           </div>
         </div>
         <div class="row justify-content-evenly">
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3 projects-img" data-aos="fade-down">
             <div class="card">
               <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1" />
               <div class="card-body">
@@ -101,7 +104,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3 projects-img" data-aos="fade-down">
             <div class="card">
               <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2" />
               <div class="card-body">
@@ -109,7 +112,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3 projects-img" data-aos="fade-down">
             <div class="card">
               <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3" />
               <div class="card-body">
@@ -117,7 +120,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3 projects-img" data-aos="fade-down">
             <div class="card">
               <img src="img/projects/4.jpg" class="card-img-top" alt="Project 4" />
               <div class="card-body">
@@ -125,7 +128,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3 projects-img" data-aos="fade-down">
             <div class="card">
               <img src="img/projects/5.jpg" class="card-img-top" alt="Project 5" />
               <div class="card-body">
@@ -150,21 +153,21 @@
           </div>
         </div>
         <div class="row justify-content-center mb-5">
-          <div class="col-md-7 fs-5">
+          <div class="col-md-7 fs-5 university-text" data-aos="fade-right" data-aos-delay="500">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque quibusdam nesciunt, molestiae pariatur repellat minus non, ducimus at quas, sit doloremque numquam! Aut labore modi dolore dolores recusandae temporibus pariatur
               reiciendis ut?
             </p>
           </div>
           <div class="col-md-3">
-            <img src="img/unud.png" alt="Udayana University" />
+            <img src="img/unud.png" alt="Udayana University" class="university-img" />
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-3">
-            <img src="img/mipa.png" alt="Faculty Of Mathematics and Natural Sciences" />
+            <img src="img/mipa.png" alt="Faculty Of Mathematics and Natural Sciences" class="university-img" />
           </div>
-          <div class="col-md-7">
+          <div class="col-md-7 university-text" data-aos="fade-left" data-aos-delay="650">
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, ad eius distinctio illo atque corporis quam impedit quos? Aut tenetur tempore vero, enim temporibus velit officiis a ex, repellendus odit blanditiis nostrum
               optio recusandae?
@@ -191,7 +194,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
           </div>
-          <div class="row justify-content-center">
+          <div class="row justify-content-center contact-right">
             <div class="col-md-4 mb-3">
               <label for="name" class="form-label">First Name</label>
               <input type="text" id="name" class="form-control" placeholder="Input your first name" aria-label="First name" name="firstName" />
@@ -202,19 +205,19 @@
             </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-8 contact-left">
               <div class="mb-3">
                 <label for="email" class="form-label">Email Address</label>
                 <input name="email" type="email" class="form-control" id="email" placeholder="Input your email" aria-describedby="email" />
               </div>
-              <div class="mb-3">
+              <div class="mb-3 contact-right">
                 <label for="phone" class="form-label">No Phone</label>
                 <input name="phone" type="tel" class="form-control" id="phone" placeholder="Input your number phone" aria-describedby="phone" />
               </div>
               <div>
-                <label for="massage" class="form-label">Massage</label>
+                <label for="massage" class="form-label contact-left">Massage</label>
               </div>
-              <div class="form-floating mb-3">
+              <div class="form-floating mb-3 contact-left">
                 <textarea name="massage" class="form-control" placeholder="Leave a comment here" id="massage" style="height: 200px"></textarea>
                 <label for="massage">Your Massage</label>
               </div>
@@ -252,6 +255,62 @@
 
     <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // atur fade projects untuk keseluruhan
+      const projectsImage = document.querySelectorAll(".projects-img");
+      projectsImage.forEach((img, i) => {
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+
+      // Include Animation fade-right
+      const contactFadeRight = document.querySelectorAll(".contact-right");
+      contactFadeRight.forEach((form, i) => {
+        form.dataset.aos = "fade-right";
+        form.dataset.aosDuration = 500;
+        form.dataset.aosDelay = i * 500;
+      });
+
+      // Include Animation fade-left
+      const contactFadeLeft = document.querySelectorAll(".contact-left");
+      contactFadeLeft.forEach((form, i = 500) => {
+        form.dataset.aos = "fade-left";
+        form.dataset.aosDuration = 500;
+        form.dataset.aosDelay = i * 500;
+      });
+
+      // University Image
+      const universityImage = document.querySelectorAll(".university-img");
+      universityImage.forEach((img) => {
+        img.dataset.aos = "zoom-in";
+        img.dataset.aosDuration = 500;
+      });
+
+      // University Text
+      const universityText = document.querySelectorAll(".university-text");
+      universityText.forEach((text) => {
+        text.dataset.aosDuration = 300;
+      });
+
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <!-- Animation for University -->
+
+    <!-- GSAP Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 0.5, delay: 2, text: "Student | Programmer | Athlet" });
+      gsap.from(".jumbotron img", { duration: 1, rotateY: 1080, opacity: 0 });
+    </script>
 
     <!-- Script SpreadSheet -->
     <script>
