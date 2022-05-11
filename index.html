@@ -160,12 +160,12 @@
             </p>
           </div>
           <div class="col-md-3">
-            <img src="img/unud.png" alt="Udayana University" class="university-img" />
+            <img src="img/unud.png" alt="Udayana University" class="university-img img-tilt" />
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-3">
-            <img src="img/mipa.png" alt="Faculty Of Mathematics and Natural Sciences" class="university-img" />
+            <img src="img/mipa.png" alt="Faculty Of Mathematics and Natural Sciences" class="university-img img-tilt" />
           </div>
           <div class="col-md-7 university-text" data-aos="fade-left" data-aos-delay="650">
             <p>
@@ -310,6 +310,14 @@
       gsap.registerPlugin(TextPlugin);
       gsap.to(".lead", { duration: 0.5, delay: 2, text: "Student | Programmer | Athlet" });
       gsap.from(".jumbotron img", { duration: 1, rotateY: 1080, opacity: 0 });
+    </script>
+
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".img-tilt"), {
+        max: 40,
+        speed: 1500,
+      });
     </script>
 
     <!-- Script SpreadSheet -->
