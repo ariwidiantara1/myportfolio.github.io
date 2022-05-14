@@ -1,6 +1,6 @@
 .jumbotron {
-  padding-top: 3rem;
   background-color: #d5d7d8;
+  padding-top: 6rem;
 }
 
 .jumbotron .container {
@@ -8,8 +8,12 @@
 }
 
 #projects,
-#contact {
+#anime {
   background-color: #d5d7d8;
+}
+
+#contact {
+  background: #f5f7cc;
 }
 
 section {
@@ -18,4 +22,101 @@ section {
 
 #about .container {
   min-height: 400px;
+}
+
+/* Css Section Anime */
+
+.anime-box {
+  background-color: silver;
+  width: 100%;
+  height: 400px;
+  border-radius: 5px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.anime-name {
+  position: absolute;
+  font-size: 1.3em;
+  top: 0px;
+  left: 50%;
+  transform: translate3d(-50%, 0, 50px);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.anime-box:hover .anime-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.anime-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+}
+.anime-box:hover .anime-img {
+  transform: translate3d(-50%, -50%, 80px) scale(1.1);
+}
+
+.anime-button-detail {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate3d(-50%, -20px, 100px);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.anime-box:hover .anime-button-detail {
+  opacity: 1;
+  bottom: 20px;
+}
+
+.anime-box::before {
+  content: "MY";
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  color: #777676;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.anime-box:hover::before {
+  opacity: 0.5;
+}
+
+.anime-box::after {
+  content: "ANIME";
+  position: absolute;
+  top: 260px;
+  left: 50%;
+  font-size: 3.3em;
+  font-weight: bold;
+  font-style: italic;
+  transform: translate(-50%, 0);
+  color: #777676;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.anime-box:hover::after {
+  opacity: 0.5;
+}
+
+/* Anime weight */
+
+.anime-img#two {
+  width: 150px;
+}
+.anime-img#theree {
+  width: 160px;
 }
