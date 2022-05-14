@@ -138,6 +138,39 @@
           </div>
         </div>
       </div>
+
+      <section id="My-Anime">
+        <div class="container">
+          <div class="row text-center mb-4">
+            <div class="col">
+              <h2>My Anime</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="anime-box box-tilt">
+                <h4 class="anime-name">Uzumaki Naruto</h4>
+                <img class="anime-img" src="img/Naruto/foto1.png" alt="" />
+                <a href="" class="btn btn-light btn-sm anime-detail-button">Show Detail</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="anime-box box-tilt">
+                <h4 class="anime-name">Uchiha Sasuke</h4>
+                <img class="anime-img" src="img/Naruto/Sasuke-Transparent-Background-PNG.png" width="150px" alt="" />
+                <a href="" class="btn btn-light btn-sm anime-detail-button">Show Detail</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="anime-box box-tilt">
+                <h4 class="anime-name">Uzumaki Naruto</h4>
+                <img class="anime-img" src="img/Naruto/foto1.png" alt="" />
+                <a href="" class="btn btn-light btn-sm anime-detail-button">Show Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#ffffff" fill-opacity="1" d="M0,192L160,64L320,32L480,192L640,288L800,256L960,288L1120,64L1280,160L1440,96L1440,320L1280,320L1120,320L960,320L800,320L640,320L480,320L320,320L160,320L0,320Z"></path>
       </svg>
@@ -357,8 +390,12 @@
     <script src="vanilla-tilt.min.js"></script>
     <script>
       VanillaTilt.init(document.querySelectorAll(".img-tilt"), {
-        max: 40,
-        speed: 1500,
+        max: 35,
+        speed: 10000,
+      });
+      VanillaTilt.init(document.querySelectorAll(".box-tilt"), {
+        max: 35,
+        speed: 10000,
       });
     </script>
 
