@@ -37,7 +37,7 @@ section {
 
 .anime-name {
   position: absolute;
-  font-size: 1.3em;
+  font-size: 1.2em;
   top: 0px;
   left: 50%;
   transform: translate3d(-50%, 0, 50px);
