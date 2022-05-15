@@ -24,7 +24,6 @@ section {
   min-height: 400px;
 }
 
-<<<<<<< HEAD
 /* Css Section Anime */
 
 .anime-box {
@@ -44,96 +43,17 @@ section {
   transform: translate3d(-50%, 0, 50px);
   transition: 0.5s;
   opacity: 0;
-=======
-/* My Anime Section */
-.anime-box {
-  position: relative;
-  background-color: #9b9999;
-  border-radius: 10px;
-  width: 100%;
-  height: 420px;
-  transform-style: preserve-3d;
-}
-
-.anime-box::before {
-  content: "MY";
-  position: absolute;
-  color: #6b5c5c;
-  font-size: 5em;
-  font-weight: bold;
-  font-style: italic;
-  top: 30px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  opacity: 0;
-}
-
-.anime-box:hover::before {
-  opacity: 0.2;
-}
-
-.anime-box::after {
-  content: "ANIME";
-  position: absolute;
-  color: #6b5c5c;
-  font-size: 4.3em;
-  font-weight: bold;
-  font-style: italic;
-  top: 280px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.anime-box:hover::after {
-  opacity: 0.2;
-}
-
-.anime-name {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  color: #222;
-  text-align: center;
-  font-size: 1.5em;
-  opacity: 0;
-  transition: 0.5s;
->>>>>>> 86e02f2c7b5a7f38d4e79e1fab79f091831d076c
 }
 
 .anime-box:hover .anime-name {
   top: 20px;
-<<<<<<< HEAD
   opacity: 1;
 }
 
-=======
-  transform: translate3d(0, 0, 50px);
-  opacity: 1;
-}
-
-.anime-detail-button {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.anime-box:hover .anime-detail-button {
-  opacity: 1;
-  bottom: 20px;
-  transform: translate3d(-50%, 0, 100px);
-}
-
->>>>>>> 86e02f2c7b5a7f38d4e79e1fab79f091831d076c
 .anime-img {
   position: absolute;
   top: 50%;
   left: 50%;
-<<<<<<< HEAD
   width: 250px;
   transform: translate(-50%, -50%);
   transition: 0.3s;
@@ -199,12 +119,4 @@ section {
 }
 .anime-img#theree {
   width: 160px;
-=======
-  transform: translate(-50%, -50%);
-  max-width: 220px;
-}
-
-.anime-box:hover .anime-img {
-  transform: translate3d(-50%, -50%, 80px) scale(1.2);
->>>>>>> 86e02f2c7b5a7f38d4e79e1fab79f091831d076c
 }
